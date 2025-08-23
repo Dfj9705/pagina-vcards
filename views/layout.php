@@ -5,13 +5,13 @@
         <meta charset="utf-8">
         <title>Vcards</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta name="description" content="Sitio web de Procode Innovations GT">
+        <meta name="description" content="Sitio web de Vcards GT">
         <meta name="keywords" content="tecnologia, programacion, paginas, web, aplicaciones">
         <meta name="robots" content="index, follow">
         <link rel="canonical" href="https://vcardsgt.com">
 
-        <meta property="og:title" content="Procode Innovations">
-        <meta property="og:description" content="Sitio web de Procode Innovations GT">
+        <meta property="og:title" content="Vcards">
+        <meta property="og:description" content="Sitio web de Vcards GT">
         <meta property="og:image" content="https://vcardsgt.com/images/v_logo.jpeg">
         <meta property="og:url" content="https://vcardsgt.com">
         <meta property="og:type" content="website">
@@ -19,8 +19,8 @@
         <meta property="og:image:height" content="315">
 
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Procode Innovations">
-        <meta name="twitter:description" content="Sitio web de Procode Innovations GT">
+        <meta name="twitter:title" content="Vcards">
+        <meta name="twitter:description" content="Sitio web de Vcards GT">
         <meta name="twitter:image" content="https://vcardsgt.com/images/v_logo.jpeg">
         <meta name="twitter:url" content="https://vcardsgt.com">
 
