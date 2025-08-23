@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Procode Innovations</title>
+        <title>Vcards</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta name="description" content="Sitio web de Procode Innovations GT">
         <meta name="keywords" content="tecnologia, programacion, paginas, web, aplicaciones">
@@ -50,47 +50,28 @@
         <div id="spinner"
             class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex flex-column align-items-center justify-content-center">
             <div class="spinner-grow text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
-            <p>Procode Innovations</p>
+            <p>Vcards</p>
         </div>
         <!-- Spinner End -->
 
 
-        <!-- Topbar Start -->
-        <div class="container-fluid py-2 d-none d-lg-flex">
-            <div class="container">
-                <div class="d-flex justify-content-between">
-                    <div>
-                        <small class="me-3"><i class="fa fa-clock me-2"></i><span id="time"></span></small>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Topbar End -->
-
 
         <!-- Brand Start -->
-        <div class="container-fluid bg-primary text-white pt-4 pb-5 d-none d-lg-flex">
+        <div class="container-fluid bg-white pt-4 pb-5 d-none d-lg-flex">
             <div class="container pb-2">
                 <div class="d-flex align-items-center justify-content-between">
+                    <a href="/" class="h1 text-decoration-none fst-italic mb-0"><img src="/images/v_logo.jpeg" alt=""
+                            width="50px">cards<br><small class="fs-6">Tu los imaginas, nosotros lo hacemos
+                            realidad</small></a>
+                    <small></small>
+
+
                     <div class="d-flex">
-                        <i class="bi bi-whatsapp fs-2 me-2"></i>
-                        <i class="bi bi-telephone-inbound fs-2"></i>
-                        <div class="ms-3">
-                            <h5 class="text-white mb-0">Llamanos o escribenos</h5>
-                            <span>+502 5589 5941</span>
-                        </div>
+                        <p class="me-3"><i class="bi bi-whatsapp me-2"></i>+502 23439983</p>
+                        <p><i class="bi bi-envelope me-2"></i>web@vcardsgt.com</span>
+
                     </div>
 
-                    <a href="/" class="h1 text-white text-decoration-none mb-0"><img src="/images/v_logo.jpeg" alt=""
-                            width="65px">Procode
-                        Innovations</a>
-                    <div class="d-flex">
-                        <i class="bi bi-envelope fs-2"></i>
-                        <div class="ms-3">
-                            <h5 class="text-white mb-0">Escribenos</h5>
-                            <span>web@vcardsgt.com</span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -98,12 +79,12 @@
 
 
         <!-- Navbar Start -->
-        <div class="container-fluid sticky-top">
+        <div class="container-fluid sticky-top bg-white">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
                     <a href="/" class="navbar-brand d-lg-none d-flex">
                         <img src="/images/v_logo.jpeg" alt="" width="35px" class="me-2">
-                        <h1 class="text-primary m-0">Procode</h1>
+                        <h1 class="text-dark m-0 fst-italic">cards</h1>
                     </a>
                     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                         data-bs-target="#navbarCollapse">
@@ -134,22 +115,22 @@
         <?= $contenido ?>
 
         <!-- Footer Start -->
-        <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow animate__animated animate__fadeIn"
+        <div class="container-fluid position-relative bg-light py-2 wow animate__animated animate__fadeIn"
             data-wow-delay="0.1s">
             <div class="container">
                 <div class="row g-5 py-5">
                     <div class="col-lg-12 pe-lg-5">
                         <a href="/" class="navbar-brand">
-                            <h1 class="h1 text-white mb-0">Procode Innovations</h1>
+                            <h1 class="h1 mb-0 fst-italic">Vcards</h1>
                         </a>
-                        <p class="fs-5 mb-4">Conectamos tus ideas al mundo digital</p>
+                        <p class="fs-5 mb-4 fst-italic">Tu lo imaginas, nosotros lo hacemos realidad</p>
 
-                        <p><a class="text-decoration-none text-white-50" href="tel:+50255895941"><i
+                        <p><a class="text-decoration-none text-black-50" href="tel:+50255895941"><i
                                     class="fa fa-phone-alt me-2"></i>+502 55895941</p></a>
-                        <p><a class="text-decoration-none text-white-50"
+                        <p><a class="text-decoration-none text-black-50"
                                 href="https://wa.me/50255895941?text=Hola,%20quiero%20más%20información"><i
                                     class="fa fa-whatsapp me-2"></i>+502 55895941</p></a>
-                        <p><a class="text-decoration-none text-white-50" href="mailto:web@vcardsgt.com"><i
+                        <p><a class="text-decoration-none text-black-50" href="mailto:web@vcardsgt.com"><i
                                     class="fa fa-envelope me-2"></i>web@vcardsgt.com</p></a>
                         <div class="d-flex mt-4">
                             <!-- <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-twitter"></i></a> -->
@@ -165,7 +146,7 @@
 
 
         <!-- Copyright Start -->
-        <div class="container-fluid copyright bg-dark text-white-50 py-4">
+        <div class="container-fluid copyright bg-primary text-white-50 py-4">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-6 text-center text-md-start">

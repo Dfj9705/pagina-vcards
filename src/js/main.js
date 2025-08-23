@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.querySelector('.sticky-top').classList.add('bg-white', 'shadow-sm');
             document.querySelector('.sticky-top').style.top = '-1px';
         } else {
-            document.querySelector('.sticky-top').classList.remove('bg-white', 'shadow-sm');
+            // document.querySelector('.sticky-top').classList.remove('bg-white', 'shadow-sm');
             document.querySelector('.sticky-top').style.top = '-100px';
         }
     });

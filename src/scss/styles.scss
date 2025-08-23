@@ -1,12 +1,23 @@
 @import 'bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Red+Rose:wght@600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 // Sobrescribir la variable --bs-primary
 :root {
-  --bs-primary: #224459; // Cambia el valor a tu color deseado
-  --bs-light: #F2ECEB;
-  --bs-secondary: #72878C;
+  /* Colores principales */
+  --bs-primary: #8C4A6F;   /* Un tono vino elegante, asociado a lujo y celebraciones */
+  --bs-secondary: #4A6A82; /* Azul grisáceo, sobrio y corporativo */
+  --bs-light: #F7F4F2;     /* Fondo claro neutro, ideal para balancear */
+
+  /* Colores de apoyo */
+  --bs-accent: #D9B44A;    /* Dorado suave para destacar detalles */
+  --bs-neutral: #ECECEC;   /* Gris claro, mantiene sobriedad */
+  --bs-dark: #2C2C2C;      /* Negro suave para contrastes elegantes */
+
+  /* Gradientes sugeridos */
+  --primary-gradient: linear-gradient(135deg, #8C4A6F, #D9B44A);
+  --secondary-gradient: linear-gradient(135deg, #4A6A82, #8C4A6F);
 }
+
 .bg-primary, .btn-primary{
     background-color:var(--bs-primary) !important;
 }
@@ -28,7 +39,7 @@ body {
   }
   
   h1, h2, h3 {
-    font-family: 'Red Rose', cursive;
+    font-family: 'Cormorant Garamond', cursive;
   }
   
   .text-regular {
