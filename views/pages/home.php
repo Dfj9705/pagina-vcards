@@ -3,11 +3,11 @@
     <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="w-100" src="images/carousel-1.jpg" alt="Image">
+                <img class="w-100" src="images/vcard-carrousel-1.jpg" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-lg-7 text-start">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-7 text-end">
                                 <h1
                                     class="display-4 fst-italic text-white wow animate__animated animate__slideInRight mb-3">
                                     Montajes de decoración</h1>
@@ -20,11 +20,11 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="images/carousel-2.jpg" alt="Image">
+                <img class="w-100" src="images/vcard-carrousel-2.jpg" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
-                        <div class="row justify-content-end">
-                            <div class="col-lg-7 text-end">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-7 text-start">
                                 <h1
                                     class="display-4 fst-italic text-white  wow animate__animated animate__slideInLeft mb-3">
                                     Servicios Empresariales</h1>
@@ -53,44 +53,35 @@
 <div class="container-fluid py-5">
     <div class="container">
         <div class="row g-0 feature-row">
-            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                 <div class="feature-item border h-100 p-5">
                     <div class="icon-box-primary mb-4">
-                        <i class="bi bi-globe2 text-dark"></i>
+                        <i class="bi bi-stars text-dark"></i>
                     </div>
-                    <h5 class="mb-3">Desarrollo a la medida</h5>
-                    <p class="mb-0">Creación de aplicaciones únicas y adaptadas a la identidad de tu marca, garantizando
-                        una experiencia visual atractiva y coherente.</p>
+                    <h5 class="mb-3">Servicio de montajes</h5>
+                    <p class="mb-0">Transformamos cada espacio en una experiencia única, adaptándonos a las necesidades
+                        de
+                        nuestros clientes.</p>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
                 <div class="feature-item border h-100 p-5">
                     <div class="icon-box-primary mb-4">
-                        <i class="bi bi-tablet text-dark"></i>
+                        <i class="bi bi-buildings text-dark"></i>
                     </div>
-                    <h5 class="mb-3">Desarrollo responsive</h5>
-                    <p class="mb-0">Aplicaciones web completamente adaptables a cualquier dispositivo, desde móviles
-                        hasta ordenadores, ofreciendo una experiencia coherente y fluida en todas las plataformas.</p>
+                    <h5 class="mb-3">Servicios empresariales</h5>
+                    <p class="mb-0">Creamos espacios que proyectan la imagen, prestigio y profesionalismo de tu empresa.
+                    </p>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
                 <div class="feature-item border h-100 p-5">
                     <div class="icon-box-primary mb-4">
-                        <i class="bi bi-shield-lock text-dark"></i>
+                        <i class="bi bi-gift text-dark"></i>
                     </div>
-                    <h5 class="mb-3">Seguridad avanzada</h5>
-                    <p class="mb-0">Aplicación de medidas de seguridad como encriptación, protección contra ataques y
-                        certificados SSL para garantizar la integridad y privacidad de los datos.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                <div class="feature-item border h-100 p-5">
-                    <div class="icon-box-primary mb-4">
-                        <i class="bi bi-headphones text-dark"></i>
-                    </div>
-                    <h5 class="mb-3">Soporte 24/7</h5>
-                    <p class="mb-0">Servicios de actualización, resolución de problemas y mejora continua, asegurando
-                        que tu sitio o aplicación web se mantenga al día y funcionando sin interrupciones.</p>
+                    <h5 class="mb-3">Arreglos y regalos</h5>
+                    <p class="mb-0">Creamos arreglos y regalos personalizados que se adaptan a la perfección a tus
+                        necesidades y gustos.</p>
                 </div>
             </div>
         </div>
