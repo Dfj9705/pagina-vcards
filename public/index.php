@@ -1,0 +1,22 @@
+<?php
+require_once __DIR__ . '/../includes/app.php';
+
+
+use Controllers\ContactoController;
+use MVC\Router;
+use Controllers\AppController;
+$router = new Router();
+// $router->setBaseURL('/' . $_ENV['APP_NAME']);
+
+$router->get('/', [AppController::class, 'index']);
+$router->get('/quienes-somos', [AppController::class, 'somos']);
+$router->get('/mision-vision', [AppController::class, 'mision']);
+$router->get('/servicios', [AppController::class, 'servicios']);
+$router->get('/contacto', [AppController::class, 'contacto']);
+$router->get('/biblioteca', [AppController::class, 'biblioteca']);
+$router->get('/detalle', [AppController::class, 'detalle']);
+
+$router->post('/API/contacto/enviar', [ContactoController::class, 'enviar']);
+
+// Comprueba y valida las rutas, que existan y les asigna las funciones del Controlador
+$router->comprobarRutas();
