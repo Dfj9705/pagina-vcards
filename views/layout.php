@@ -8,12 +8,12 @@
         <meta name="description" content="Sitio web de Procode Innovations GT">
         <meta name="keywords" content="tecnologia, programacion, paginas, web, aplicaciones">
         <meta name="robots" content="index, follow">
-        <link rel="canonical" href="https://procodegt.com">
+        <link rel="canonical" href="https://vcardsgt.com">
 
         <meta property="og:title" content="Procode Innovations">
         <meta property="og:description" content="Sitio web de Procode Innovations GT">
-        <meta property="og:image" content="https://procodegt.com/images/procode.png">
-        <meta property="og:url" content="https://procodegt.com">
+        <meta property="og:image" content="https://vcardsgt.com/images/v_logo.jpeg">
+        <meta property="og:url" content="https://vcardsgt.com">
         <meta property="og:type" content="website">
         <meta property="og:image:width" content="600">
         <meta property="og:image:height" content="315">
@@ -21,8 +21,8 @@
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Procode Innovations">
         <meta name="twitter:description" content="Sitio web de Procode Innovations GT">
-        <meta name="twitter:image" content="https://procodegt.com/images/procode.png">
-        <meta name="twitter:url" content="https://procodegt.com">
+        <meta name="twitter:image" content="https://vcardsgt.com/images/v_logo.jpeg">
+        <meta name="twitter:url" content="https://vcardsgt.com">
 
         <meta http-equiv="Content-Language" content="es">
 
@@ -32,7 +32,7 @@
 
 
         <!-- Favicon -->
-        <link href="images/procode.png" rel="icon">
+        <link href="images/v_logo.jpeg" rel="icon">
 
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -81,14 +81,14 @@
                         </div>
                     </div>
 
-                    <a href="/" class="h1 text-white text-decoration-none mb-0"><img src="/images/procode.png" alt=""
+                    <a href="/" class="h1 text-white text-decoration-none mb-0"><img src="/images/v_logo.jpeg" alt=""
                             width="65px">Procode
                         Innovations</a>
                     <div class="d-flex">
                         <i class="bi bi-envelope fs-2"></i>
                         <div class="ms-3">
                             <h5 class="text-white mb-0">Escribenos</h5>
-                            <span>web@procodegt.com</span>
+                            <span>web@vcardsgt.com</span>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
                     <a href="/" class="navbar-brand d-lg-none d-flex">
-                        <img src="/images/procode.png" alt="" width="35px" class="me-2">
+                        <img src="/images/v_logo.jpeg" alt="" width="35px" class="me-2">
                         <h1 class="text-primary m-0">Procode</h1>
                     </a>
                     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
@@ -149,8 +149,8 @@
                         <p><a class="text-decoration-none text-white-50"
                                 href="https://wa.me/50255895941?text=Hola,%20quiero%20más%20información"><i
                                     class="fa fa-whatsapp me-2"></i>+502 55895941</p></a>
-                        <p><a class="text-decoration-none text-white-50" href="mailto:web@procodegt.com"><i
-                                    class="fa fa-envelope me-2"></i>web@procodegt.com</p></a>
+                        <p><a class="text-decoration-none text-white-50" href="mailto:web@vcardsgt.com"><i
+                                    class="fa fa-envelope me-2"></i>web@vcardsgt.com</p></a>
                         <div class="d-flex mt-4">
                             <!-- <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-twitter"></i></a> -->
                             <!-- <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-facebook-f"></i></a> -->
