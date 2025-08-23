@@ -8,15 +8,12 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-lg-7 text-start">
-                                <h1 class="display-4 text-white wow animate__animated animate__slideInRight mb-3">
-                                    Desarrollo de
-                                    Aplicaciones
-                                    Web</h1>
-                                <p class="fs-4 mb-5 wow animate__animated animate__slideInRight">Creamos aplicaciones
-                                    web
-                                    personalizadas,
-                                    escalables y eficientes, diseñadas para satisfacer las necesidades de tu negocio,
-                                    con tecnologías modernas y una experiencia de usuario optimizada.</p>
+                                <h1
+                                    class="display-4 fst-italic text-white wow animate__animated animate__slideInRight mb-3">
+                                    Montajes de decoración</h1>
+                                <p class="fs-4 mb-5 fst-italic wow animate__animated animate__slideInRight">
+                                    Transformamos cada
+                                    espacio en una experiencia única.</p>
                             </div>
                         </div>
                     </div>
@@ -28,12 +25,12 @@
                     <div class="container">
                         <div class="row justify-content-end">
                             <div class="col-lg-7 text-end">
-                                <h1 class="display-4 text-white  wow animate__animated animate__slideInLeft mb-3">
-                                    Creación de Páginas Web</h1>
-                                <p class="fs-4 mb-5  wow animate__animated animate__slideInLeft">Diseñamos y
-                                    desarrollamos páginas web
-                                    atractivas y funcionales, adaptadas a tu marca, garantizando una experiencia visual
-                                    impecable y un rendimiento óptimo en todos los dispositivos.</p>
+                                <h1
+                                    class="display-4 fst-italic text-white  wow animate__animated animate__slideInLeft mb-3">
+                                    Servicios Empresariales</h1>
+                                <p class="fs-4 mb-5 fst-italic wow animate__animated animate__slideInLeft">Creamos
+                                    espacios que
+                                    proyectan la imagen, prestigio y profesionalismo de tu empresa.</p>
                             </div>
                         </div>
                     </div>

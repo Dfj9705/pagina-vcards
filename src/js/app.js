@@ -1,14 +1,14 @@
 import { Dropdown } from "bootstrap";
 
-document.addEventListener('DOMContentLoaded', (e)=> {
+document.addEventListener('DOMContentLoaded', (e) => {
 
 
     let items = document.querySelectorAll('.nav-link')
     items.forEach(item => {
-        if(item.href == location.href){
+        if (item.href == location.href) {
             item.classList.add('active')
-            if(item.classList.contains('dropdown-item')){
-               item.parentElement.parentElement.previousElementSibling.classList.add('active')
+            if (item.classList.contains('dropdown-item')) {
+                item.parentElement.parentElement.previousElementSibling.classList.add('active')
             }
         }
     });
@@ -33,7 +33,7 @@ const mostrarReloj = () => {
 
     document.getElementById('time').textContent = `${fechaActual} ${horaActual}`
 };
-mostrarReloj();
+// mostrarReloj();
 // Llamar a la función para que se actualice cada segundo
-setInterval(mostrarReloj, 1000);
+// setInterval(mostrarReloj, 1000);
 

@@ -99,12 +99,14 @@
                             <a href="/contacto" class="nav-item nav-link">Contáctenos</a>
                         </div>
                         <div class="ms-auto d-none d-lg-flex">
-                            <!-- <a class="btn btn-sm-square btn-primary ms-2" target="_blank" aria-label="Enlace a Facebook"
-                                href="https://www.facebook.com/profile.php?id=100069030525794"><i
-                                    class="fab fa-facebook-f"></i><span class="d-none">Enlace a Facebook</span></a> -->
-                            <!-- <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-youtube"></i></a> -->
+                            <a class="btn btn-sm-square btn-primary ms-2" target="_blank" aria-label="Enlace a Facebook"
+                                href="https://www.facebook.com/share/19upZxaxV6/"><i class="bi bi-facebook"></i><span
+                                    class="d-none">Enlace a Facebook</span></a>
+                            <a class="btn btn-sm-square btn-primary ms-2"
+                                href="https://www.facebook.com/share/19upZxaxV6/" target="__blank"><i
+                                    class="bi bi-instagram"></i></a>
+                            <a class="btn btn-sm-square btn-primary ms-2" href="" target="__blank"><i
+                                    class="bi bi-tiktok"></i></a>
                         </div>
                     </div>
                 </nav>
@@ -133,8 +135,14 @@
                         <p><a class="text-decoration-none text-black-50" href="mailto:web@vcardsgt.com"><i
                                     class="fa fa-envelope me-2"></i>web@vcardsgt.com</p></a>
                         <div class="d-flex mt-4">
-                            <!-- <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-twitter"></i></a> -->
-                            <!-- <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-facebook-f"></i></a> -->
+                            <a class="btn btn-lg-square btn-primary me-2"
+                                href="https://www.instagram.com/vcardsgt?igsh=Z2FhcTMzazFnbmM3" target="__blank"><i
+                                    class="bi bi-instagram"></i></a>
+                            <a class="btn btn-lg-square btn-primary me-2"
+                                href="https://www.facebook.com/share/19upZxaxV6/" target="__blank"><i
+                                    class="bi bi-facebook"></i></a>
+                            <a class="btn btn-lg-square btn-primary me-2" href="https://www.tiktok.com/@vcardsgt"
+                                target="__blank"><i class="bi bi-tiktok"></i></a>
                             <!-- <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
                         <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-instagram"></i></a> -->
                         </div>
