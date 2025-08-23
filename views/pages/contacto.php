@@ -31,7 +31,7 @@
                     </div>
                     <div class="ms-3" style="overflow: hidden">
                         <h5 class="text-white">Correo</h5>
-                        <h2 class="text-white mb-0">web@procodegt.com</h2>
+                        <h2 class="text-white mb-0">web@vcardsgt.com</h2>
                     </div>
                 </a>
             </div>
