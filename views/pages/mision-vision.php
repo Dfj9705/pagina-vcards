@@ -11,21 +11,18 @@
             <div class="text-center mx-auto wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s"
                 style="max-width: 600px;">
                 <h1 class="display-6 mb-3">Visión</h1>
-                <p class="mb-5 fs-4">Ser la empresa líder en desarrollo de aplicaciones y páginas web, reconocida por
-                    crear soluciones innovadoras, escalables y personalizadas que transformen la manera en que las
-                    empresas y personas interactúan con la tecnología digital. Nos esforzamos por marcar tendencia en el
-                    sector, ofreciendo productos que combinen creatividad, tecnología de vanguardia y una experiencia de
-                    usuario excepcional.</p>
+                <p class="mb-5 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore accusantium
+                    expedita illum quis impedit ullam excepturi. Necessitatibus tenetur placeat deserunt ut ipsum?
+                    Mollitia blanditiis accusantium incidunt animi. Asperiores, laudantium officia?</p>
             </div>
         </div>
         <div class="col-lg-6 py-5">
             <div class="text-center mx-auto wow animate__animated animate__fadeInRight" data-wow-delay="0.1s"
                 style="max-width: 600px;">
                 <h1 class="display-6 mb-3">Misión</h1>
-                <p class="mb-5 fs-4">Brindar a nuestros clientes soluciones tecnológicas robustas y adaptadas a sus
-                    necesidades, desarrollando aplicaciones y páginas web con la máxima calidad, eficiencia y enfoque en
-                    la experiencia de usuario. Nos comprometemos a impulsar el crecimiento y la transformación digital
-                    de nuestros clientes a través de una atención personalizada y el uso de tecnologías innovadoras.</p>
+                <p class="mb-5 fs-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum nobis,
+                    doloribus vel ducimus eum ut nulla! Eligendi quisquam maxime, obcaecati laudantium perferendis velit
+                    quod natus blanditiis ducimus debitis quibusdam!</p>
             </div>
         </div>
     </div>
