@@ -34,5 +34,22 @@ class AppController
     {
         $router->render('pages/detalle', []);
     }
+    public static function activaciones(Router $router)
+    {
+        $router->render('pages/activaciones', []);
+    }
+
+    public static function eventosCorporativos(Router $router)
+    {
+        $router->render('pages/eventos-corporativos', []);
+    }
+    public static function merchandasing(Router $router)
+    {
+        $router->render('pages/merchandasing', []);
+    }
+    public static function decoracionCorporativa(Router $router)
+    {
+        $router->render('pages/decoracion-corporativa', []);
+    }
 
 }

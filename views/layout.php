@@ -67,7 +67,7 @@
 
 
                     <div class="d-flex">
-                        <p class="me-3"><i class="bi bi-whatsapp me-2"></i>+502 23439983</p>
+                        <p class="me-3"><i class="bi bi-whatsapp me-2"></i>+502 50189914</p>
                         <p><i class="bi bi-envelope me-2"></i>web@vcardsgt.com</span>
 
                     </div>
@@ -127,11 +127,11 @@
                         </a>
                         <p class="fs-5 mb-4 fst-italic">Tu lo imaginas, nosotros lo hacemos realidad</p>
 
-                        <p><a class="text-decoration-none text-black-50" href="tel:+50255895941"><i
-                                    class="fa fa-phone-alt me-2"></i>+502 55895941</p></a>
+                        <p><a class="text-decoration-none text-black-50" href="tel:+50250189914"><i
+                                    class="fa fa-phone-alt me-2"></i>+502 50189914</p></a>
                         <p><a class="text-decoration-none text-black-50"
-                                href="https://wa.me/50255895941?text=Hola,%20quiero%20más%20información"><i
-                                    class="fa fa-whatsapp me-2"></i>+502 55895941</p></a>
+                                href="https://wa.me/50250189914?text=Hola,%20quiero%20más%20información"><i
+                                    class="fa fa-whatsapp me-2"></i>+502 50189914</p></a>
                         <p><a class="text-decoration-none text-black-50" href="mailto:web@vcardsgt.com"><i
                                     class="fa fa-envelope me-2"></i>web@vcardsgt.com</p></a>
                         <div class="d-flex mt-4">

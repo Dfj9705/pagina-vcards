@@ -15,6 +15,10 @@ $router->get('/servicios', [AppController::class, 'servicios']);
 $router->get('/contacto', [AppController::class, 'contacto']);
 $router->get('/biblioteca', [AppController::class, 'biblioteca']);
 $router->get('/detalle', [AppController::class, 'detalle']);
+$router->get('/activaciones', [AppController::class, 'activaciones']);
+$router->get('/eventos-corporativos', [AppController::class, 'eventosCorporativos']);
+$router->get('/decoracion-corporativa', [AppController::class, 'decoracionCorporativa']);
+$router->get('/merchandasing-y-material-corporativo', [AppController::class, 'merchandasing']);
 
 $router->post('/API/contacto/enviar', [ContactoController::class, 'enviar']);
 

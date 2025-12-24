@@ -88,3 +88,57 @@
     </div>
 </div>
 <!-- Features End -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="text-center mx-auto wow animate_animated animate_fadeInUp" data-wow-delay="0.1s"
+            style="max-width: 600px;">
+            <h1 class="display-6 mb-3">Nuestro clientes</h1>
+        </div>
+        <div class="swiper enlacesSwiper wow animate_animated animate_fadeInUp">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide d-flex flex-column">
+                    <a href="https://www.gruposalinas.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="200" height="200" alt="Logo 1">
+                    </a>
+                    <small class="fw-bold text-primary text-center">Cliente 1</small>
+                </div>
+                <div class="swiper-slide d-flex flex-column">
+                    <a href="https://www.gruposalinas.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="200" height="200" alt="Logo 1">
+                    </a>
+                    <small class="fw-bold text-primary text-center">Cliente 2</small>
+                </div>
+                <div class="swiper-slide d-flex flex-column">
+                    <a href="https://www.gruposalinas.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="200" height="200" alt="Logo 1">
+                    </a>
+                    <small class="fw-bold text-primary text-center">Cliente 3</small>
+                </div>
+                <div class="swiper-slide d-flex flex-column">
+                    <a href="https://www.gruposalinas.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="200" height="200" alt="Logo 1">
+                    </a>
+                    <small class="fw-bold text-primary text-center">Cliente 4</small>
+                </div>
+                <div class="swiper-slide d-flex flex-column">
+                    <a href="https://www.gruposalinas.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="200" height="200" alt="Logo 1">
+                    </a>
+                    <small class="fw-bold text-primary text-center">Cliente 5</small>
+                </div>
+                <div class="swiper-slide d-flex flex-column">
+                    <a href="https://www.gruposalinas.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="200" height="200" alt="Logo 1">
+                    </a>
+                    <small class="fw-bold text-primary text-center">Cliente 6</small>
+                </div>
+
+
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+</div>
+<script src="<?= asset('./build/js/pages/home.js') ?>"></script>

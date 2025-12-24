@@ -6,8 +6,19 @@ module.exports = {
   entry: {
     'js/app': './src/js/app.js',
     'js/main': './src/js/main.js',
-    'js/inicio': './src/js/inicio.js',
-    'js/pages/contacto': './src/js/pages/contacto.js',
+
+    'js/inicio': {
+      import: './src/js/inicio.js',
+      dependOn: 'js/app',
+    },
+    'js/pages/contacto': {
+      import: './src/js/pages/contacto.js',
+      dependOn: 'js/app',
+    },
+    'js/pages/home': {
+      import: './src/js/pages/home.js',
+      dependOn: 'js/app',
+    },
     'css/styles': ['./src/scss/app.scss'],
   },
   output: {

@@ -10,15 +10,12 @@
         <div class="col-lg-8 py-5">
             <div class="text-justify mx-auto wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s"
                 style="text-align: justify;">
-                <p class="mb-5 fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, odio accusantium!
-                    Velit commodi numquam sapiente aut, a beatae reprehenderit consequuntur, sunt necessitatibus
-                    recusandae veniam eius ipsa enim nesciunt voluptates. Dignissimos.</p>
-            </div>
-            <div class="text-justify mx-auto wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s"
-                style="text-align: justify;">
-                <p class="mb-5 fs-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis doloribus quaerat
-                    placeat eos ad neque, repudiandae esse recusandae eius delectus accusantium odio repellendus sunt
-                    rerum iure maiores et ipsa similique!</p>
+                <p class="mb-5 fs-5">Hola! Vcards empresa especializada
+                    en activaciones, eventos corporativos
+                    y experiencias sensoriales.
+                    Combinamos creatividad, estrategia
+                    y producción para conectar marcas
+                    con personas.</p>
             </div>
 
 

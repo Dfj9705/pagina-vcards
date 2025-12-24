@@ -281,7 +281,7 @@ body {
 }
 
 .page-header {
-    background: linear-gradient(rgba(89, 34, 60, 0.2), rgba(89, 34, 55, 0.2)), url('../images/banner.png') center center no-repeat;
+    background: linear-gradient(rgba(89, 34, 60, 0.6), rgba(89, 34, 55, 0.6)), url('../images/banner2.jpg') center center no-repeat;
     background-size: cover;
 }
 
@@ -664,5 +664,13 @@ body {
 }
 
 .copyright a:hover {
+    color: var(--bs-primary);
+}
+
+.swiper-button-next{
+    color: var(--bs-primary);
+}
+
+.swiper-button-prev{
     color: var(--bs-primary);
 }
