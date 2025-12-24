@@ -98,37 +98,37 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide d-flex flex-column">
                     <a href="https://www.gruposalinas.com/" target="_blank" rel="noopener noreferrer">
-                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="200" height="200" alt="Logo 1">
+                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="150" height="150" alt="Logo 1">
                     </a>
                     <small class="fw-bold text-primary text-center">Cliente 1</small>
                 </div>
                 <div class="swiper-slide d-flex flex-column">
                     <a href="https://www.gruposalinas.com/" target="_blank" rel="noopener noreferrer">
-                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="200" height="200" alt="Logo 1">
+                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="150" height="150" alt="Logo 1">
                     </a>
                     <small class="fw-bold text-primary text-center">Cliente 2</small>
                 </div>
                 <div class="swiper-slide d-flex flex-column">
                     <a href="https://www.gruposalinas.com/" target="_blank" rel="noopener noreferrer">
-                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="200" height="200" alt="Logo 1">
+                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="150" height="150" alt="Logo 1">
                     </a>
                     <small class="fw-bold text-primary text-center">Cliente 3</small>
                 </div>
                 <div class="swiper-slide d-flex flex-column">
                     <a href="https://www.gruposalinas.com/" target="_blank" rel="noopener noreferrer">
-                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="200" height="200" alt="Logo 1">
+                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="150" height="150" alt="Logo 1">
                     </a>
                     <small class="fw-bold text-primary text-center">Cliente 4</small>
                 </div>
                 <div class="swiper-slide d-flex flex-column">
                     <a href="https://www.gruposalinas.com/" target="_blank" rel="noopener noreferrer">
-                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="200" height="200" alt="Logo 1">
+                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="150" height="150" alt="Logo 1">
                     </a>
                     <small class="fw-bold text-primary text-center">Cliente 5</small>
                 </div>
                 <div class="swiper-slide d-flex flex-column">
                     <a href="https://www.gruposalinas.com/" target="_blank" rel="noopener noreferrer">
-                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="200" height="200" alt="Logo 1">
+                        <img src="<?= asset('images/vc_logo.jpeg') ?>" width="150" height="150" alt="Logo 1">
                     </a>
                     <small class="fw-bold text-primary text-center">Cliente 6</small>
                 </div>
