@@ -19,6 +19,10 @@ module.exports = {
       import: './src/js/pages/home.js',
       dependOn: 'js/app',
     },
+    'js/pages/cotizador': {
+      import: './src/js/pages/cotizador.js',
+      dependOn: 'js/app',
+    },
     'css/styles': ['./src/scss/app.scss'],
   },
   output: {

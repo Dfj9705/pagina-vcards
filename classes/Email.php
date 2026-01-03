@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
 class Email
 {
-    public $mail = null;
+    public PHPMailer $mail;
     public function __construct($from = null, $name = null)
     {
         $this->mail = new PHPMailer(true);
@@ -28,9 +28,10 @@ class Email
         $this->mail->AddReplyTo($from ?? $_ENV['EMAIL_FROM_ADDRESS'], $name ?? $_ENV['EMAIL_FROM_ADDRESS']);
         $this->mail->setFrom($from ?? $_ENV['EMAIL_FROM_ADDRESS'], $name ?? $_ENV['EMAIL_FROM_ADDRESS']);
         $this->mail->isHTML(true);
+        $this->mail->addEmbeddedImage(__DIR__ . '/../public/images/vclargo.jpeg', 'logo', 'logo.jpeg');
     }
 
-    public function generateEmail($subject = '', array $addresses = [], $body = '')
+    public function generateEmail($subject = '', array $addresses = [], $body = ''): PHPMailer
     {
         $this->mail->Subject = $subject;
 
@@ -40,6 +41,10 @@ class Email
         $this->mail->Body = $body;
 
         return $this->mail;
+    }
+    public function send(): bool
+    {
+        return $this->mail->send();
     }
 }
 

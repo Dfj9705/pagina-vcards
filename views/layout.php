@@ -97,6 +97,7 @@
                             <a href="/quienes-somos" class="nav-item nav-link">Quienes somos</a>
                             <a href="/servicios" class="nav-item nav-link">Servicios</a>
                             <a href="/contacto" class="nav-item nav-link">Contáctenos</a>
+                            <a href="/cotizador" class="nav-item nav-link">Cotizador</a>
                         </div>
                         <div class="ms-auto d-none d-lg-flex">
                             <a class="btn btn-sm-square btn-primary ms-2" target="_blank" aria-label="Enlace a Facebook"
