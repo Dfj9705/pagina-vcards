@@ -5,7 +5,7 @@ namespace Model;
 class ImageCotizacion extends ActiveRecord
 {
     protected static $tabla = 'cotizacion_imagenes';
-    protected static $columnasDB = ['id', 'cotizacion_id', 'path', 'nombre_original', 'created_at'];
+    protected static $columnasDB = ['cotizacion_id', 'path', 'nombre_original', 'created_at'];
 
     protected static $idTabla = 'id';
     public $id;
