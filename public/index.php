@@ -21,6 +21,7 @@ $router->get('/eventos-corporativos', [AppController::class, 'eventosCorporativo
 $router->get('/decoracion-corporativa', [AppController::class, 'decoracionCorporativa']);
 $router->get('/merchandasing-y-material-corporativo', [AppController::class, 'merchandasing']);
 $router->get('/cotizador', [CotizadorController::class, 'index']);
+$router->get('/galeria', [AppController::class, 'galeria']);
 
 $router->post('/API/contacto/enviar', [ContactoController::class, 'enviar']);
 $router->post('/API/cotizador/enviar', [CotizadorController::class, 'enviar']);

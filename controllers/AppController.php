@@ -2,6 +2,8 @@
 
 namespace Controllers;
 
+use Model\MontajeServicio;
+use Model\TipoServicio;
 use MVC\Router;
 
 class AppController
@@ -50,6 +52,18 @@ class AppController
     public static function decoracionCorporativa(Router $router)
     {
         $router->render('pages/decoracion-corporativa', []);
+    }
+    public static function galeria(Router $router)
+    {
+        $montajes = MontajeServicio::where('activo', 1);
+
+        foreach ($montajes as $key => $value) {
+            $value->tipo_servicio = TipoServicio::find($value->tipo_servicio_id);
+            $value->fotos = json_decode($value->fotos);
+        }
+        $router->render('pages/galeria', [
+            'montajes' => $montajes
+        ]);
     }
 
 }
