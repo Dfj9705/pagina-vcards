@@ -12,11 +12,12 @@
         </div>
         <div class="row g-5 justify-content-center">
             <div class="col-lg-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-                <form id="formCotizador" method="post">
+                <form id="formCotizador" method="post" class="needs-validation" novalidate>
                     <div class="row g-3 mb-3">
                         <div class="col">
                             <div class="form-floating">
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Su Nombre">
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Su Nombre"
+                                    required>
                                 <label for="name">Su Nombre <span class="text-danger">*</span></label>
                             </div>
                         </div>
@@ -24,7 +25,7 @@
                     <div class="row g-3 mb-3">
                         <div class="col-md-6">
                             <div class="form-floating">
-                                <input type="tel" class="form-control" name="phone" id="phone"
+                                <input type="tel" class="form-control" name="phone" id="phone" required
                                     placeholder="Su Teléfono">
                                 <label for="phone">Su Teléfono <span class="text-danger">*</span></label>
                             </div>
@@ -32,7 +33,8 @@
 
                         <div class="col-md-6">
                             <div class="form-floating">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Su Email">
+                                <input type="email" class="form-control" name="email" id="email" required
+                                    placeholder="Su Email">
                                 <label for="email">Su Email <span class="text-danger">*</span></label>
                             </div>
                         </div>
@@ -40,8 +42,8 @@
                     <div class="row g-3 mb-3">
                         <div class="col-12">
                             <div class="form-floating">
-                                <select class="form-select" id="service" name="service">
-                                    <option selected>Seleccione un Servicio</option>
+                                <select class="form-select" id="service" name="service" required>
+                                    <option value="" selected>Seleccione un Servicio</option>
                                     <option value="1">Montaje de decoración</option>
                                     <option value="2">Evento Corporativo</option>
                                     <option value="3">Merchandasing y Material Corporativo</option>
@@ -53,7 +55,7 @@
                     <div class="row g-3 mb-3">
                         <div class="col">
                             <div class="form-floating">
-                                <input type="datetime-local" class="form-control" name="datetime" id="datetime"
+                                <input type="datetime-local" class="form-control" name="datetime" id="datetime" required
                                     placeholder="Su Email">
                                 <label for="datetime">Fecha y Hora <span class="text-danger">*</span></label>
                             </div>
@@ -67,6 +69,11 @@
                                 <label for="observations">Observaciones</label>
                             </div>
                         </div>
+                    </div>
+                    <div class="row g-3 mb-3">
+                        <label for="imagenes">Imagenes de referencia</label>
+                        <input id="imagenes" type="file" name="imagenes[]" multiple accept="image/*">
+
                     </div>
                     <div class="row justify-content-center text-center mt-3 p-auto mb-3">
                         <div id="captcha" class="col">

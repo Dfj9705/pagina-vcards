@@ -32,6 +32,8 @@
     "core-js": "^3.37.0",
     "countup.js": "^2.8.0",
     "datatables.net-bs5": "^1.12.1",
+    "filepond": "^4.32.10",
+    "filepond-plugin-file-validate-type": "^1.2.9",
     "fullcalendar": "^5.11.3",
     "jquery": "^3.6.1",
     "leaflet": "^1.9.2",
