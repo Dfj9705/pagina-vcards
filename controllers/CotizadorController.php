@@ -79,19 +79,20 @@ class CotizadorController
             ]);
 
             $resultado = $cotizacion->crear();
-
-            for ($i = 0; $i < count($imagenes['name']); $i++) {
-                $nombreOriginal = $imagenes['name'][$i];
-                $nuevoNombre = uniqid();
-                $extension = pathinfo($imagenes['name'][$i], PATHINFO_EXTENSION);
-                $path = $_ENV['UPLOADS'] . '/cotizaciones/' . $nuevoNombre . '.' . $extension;
-                move_uploaded_file($imagenes['tmp_name'][$i], $path);
-                $imagen = new ImageCotizacion([
-                    'cotizacion_id' => $resultado['id'],
-                    'path' => $path,
-                    'nombre_original' => $nombreOriginal,
-                ]);
-                $imagen->crear();
+            if (is_array($imagenes['name'])) {
+                for ($i = 0; $i < count($imagenes['name']); $i++) {
+                    $nombreOriginal = $imagenes['name'][$i];
+                    $nuevoNombre = uniqid();
+                    $extension = pathinfo($imagenes['name'][$i], PATHINFO_EXTENSION);
+                    $path = $_ENV['UPLOADS'] . '/cotizaciones/' . $nuevoNombre . '.' . $extension;
+                    move_uploaded_file($imagenes['tmp_name'][$i], $path);
+                    $imagen = new ImageCotizacion([
+                        'cotizacion_id' => $resultado['id'],
+                        'path' => $path,
+                        'nombre_original' => $nombreOriginal,
+                    ]);
+                    $imagen->crear();
+                }
             }
 
             $email = new Email();
