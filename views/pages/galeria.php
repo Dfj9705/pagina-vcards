@@ -5,8 +5,8 @@
     </div>
 </div>
 <!-- Page Header End -->
-<div class="container-fluid container-service py-5">
-    <div class="container py-5">
+<div class="container-fluid container-service py-2">
+    <div class="container">
         <div class="row">
             <?php if (is_array($montajes) && count($montajes) > 0): ?>
                 <?php foreach ($montajes as $montaje): ?>
