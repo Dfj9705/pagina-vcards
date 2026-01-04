@@ -7,7 +7,7 @@ try {
     $service = $_ENV['DB_SERVICE'];
     $database = $_ENV['DB_NAME'];
 
-    $db = new PDO("mysql:host=$host;dbname=$database", "$user", "$pass");
+    $db = new PDO("mysql:host=$host;dbname=$database;charset=utf8", "$user", "$pass");
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
