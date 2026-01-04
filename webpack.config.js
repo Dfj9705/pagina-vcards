@@ -23,6 +23,10 @@ module.exports = {
       import: './src/js/pages/cotizador.js',
       dependOn: 'js/app',
     },
+    'js/pages/galeria': {
+      import: './src/js/pages/galeria.js',
+      dependOn: 'js/app',
+    },
     'css/styles': ['./src/scss/app.scss'],
   },
   output: {

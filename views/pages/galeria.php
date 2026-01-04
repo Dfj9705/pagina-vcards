@@ -24,7 +24,12 @@
                                 <div class="carousel-inner">
                                     <?php foreach ($montaje->fotos as $key => $foto): ?>
                                         <div class="carousel-item <?= $key == 0 ? 'active' : '' ?>">
-                                            <img src="<?= $_ENV['MONTAJES_URL'] . $foto ?>" class="d-block w-100" alt="...">
+                                            <a href="<?= $_ENV['MONTAJES_URL'] . $foto ?>" class="glightbox"
+                                                data-gallery="montaje-<?= $montaje->id ?>"
+                                                data-title="<?= htmlspecialchars($montaje->titulo) ?>">
+                                                <img src="<?= $_ENV['MONTAJES_URL'] . $foto ?>" class="d-block w-100"
+                                                    alt="<?= htmlspecialchars($montaje->titulo) ?>">
+                                            </a>
                                         </div>
                                     <?php endforeach; ?>
                                 </div>
@@ -57,3 +62,4 @@
         </div>
     </div>
 </div>
+<script src="./build/js/pages/galeria.js"></script>
