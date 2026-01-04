@@ -2,6 +2,7 @@
 
 namespace Controllers;
 
+use Model\Anuncio;
 use Model\MontajeServicio;
 use Model\TipoServicio;
 use MVC\Router;
@@ -10,7 +11,10 @@ class AppController
 {
     public static function index(Router $router)
     {
-        $router->render('pages/home', []);
+        $anuncios = Anuncio::getAnuncionOrder();
+        $router->render('pages/home', [
+            'anuncios' => $anuncios
+        ]);
     }
     public static function somos(Router $router)
     {

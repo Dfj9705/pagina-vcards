@@ -2,49 +2,34 @@
 <div class="container-fluid header-carousel px-0 mb-5">
     <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="w-100" src="images/vcard-carrousel-1.jpg" alt="Image">
-                <div class="carousel-caption">
-                    <div class="container">
-                        <div class="row justify-content-end">
-                            <div class="col-lg-7 text-end">
-                                <h1
-                                    class="display-4 fst-italic text-white wow animate__animated animate__slideInRight mb-3">
-                                    Montajes de decoración</h1>
-                                <p class="fs-4 mb-5 fst-italic wow animate__animated animate__slideInRight">
-                                    Transformamos cada
-                                    espacio en una experiencia única.</p>
+            <?php foreach ($anuncios as $key => $anuncio): ?>
+                <div class="carousel-item <?= $key === 0 ? 'active' : '' ?>">
+                    <img class="w-100" src="<?= $_ENV['MONTAJES_URL'] . $anuncio['imagen'] ?>" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-<?= $key % 2 === 0 ? 'end' : 'start' ?>">
+                                <div class="col-lg-7 text-<?= $key % 2 === 0 ? 'end' : 'start' ?>">
+                                    <h1
+                                        class="display-4 fst-italic text-white wow animate__animated animate__slideIn<?= $key % 2 === 0 ? 'Right' : 'Left' ?> mb-3 <?= $key % 2 === 0 ? 'text-end' : 'text-start' ?>">
+                                        <?= $anuncio['titulo'] ?>
+                                    </h1>
+                                    <p
+                                        class="fs-4 mb-5 fst-italic wow animate__animated animate__slideIn<?= $key % 2 === 0 ? 'Right' : 'Left' ?> <?= $key % 2 === 0 ? 'text-end' : 'text-start' ?>">
+                                        <?= $anuncio['subtitulo'] ?>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img class="w-100" src="images/vcard-carrousel-2.jpg" alt="Image">
-                <div class="carousel-caption">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-lg-7 text-start">
-                                <h1
-                                    class="display-4 fst-italic text-white  wow animate__animated animate__slideInLeft mb-3">
-                                    Servicios Empresariales</h1>
-                                <p class="fs-4 mb-5 fst-italic wow animate__animated animate__slideInLeft">Creamos
-                                    espacios que
-                                    proyectan la imagen, prestigio y profesionalismo de tu empresa.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php endforeach ?>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-indicators">
+            <?php foreach ($anuncios as $key => $anuncio): ?>
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="<?= $key ?>"
+                    class="<?= $key === 0 ? 'active' : '' ?>" aria-current="true" aria-label="Slide 1"></button>
+            <?php endforeach ?>
+        </div>
     </div>
 </div>
 <!-- Carousel End -->
