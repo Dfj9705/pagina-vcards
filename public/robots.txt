@@ -2,3 +2,5 @@ User-agent: *
 Allow: /public/
 Allow: /images/
 Allow: /files/
+
+sitemap: /sitemap.xml
