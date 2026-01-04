@@ -10,8 +10,8 @@
         <div class="row">
             <?php if (is_array($montajes) && count($montajes) > 0): ?>
                 <?php foreach ($montajes as $montaje): ?>
-                    <div class="col-md-4">
-                        <div class="card wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
                             <div id="carouselExampleIndicators<?= $montaje->id ?>" class="carousel slide"
                                 data-bs-ride="carousel">
                                 <div class="carousel-indicators">
