@@ -49,23 +49,8 @@
                 para brindarte la mejor propuesta posible.</p>
 
             <p><strong>Resumen de solicitud:</strong></p>
-            <?php
-            $servicio = '';
-
-            switch ($cotizacion->servicio) {
-                case '1':
-                    $servicio = 'Montaje de decoración';
-                    break;
-                case '2':
-                    $servicio = 'Evento Corporativo';
-                    break;
-                case '3':
-                    $servicio = 'Merchandasing y Material Corporativo';
-                    break;
-            }
-            ?>
             <ul>
-                <li><span>Detalles:</span> <?= $servicio ?></li>
+                <li><span>Detalles:</span> <?= $tipoServicio ?></li>
                 <li><span>Fecha:</span> <?= $cotizacion->fecha ?></li>
                 <li><span>Observaciones:</span> <?= $cotizacion->observaciones ?></li>
             </ul>

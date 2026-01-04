@@ -8,13 +8,17 @@ use DateTime;
 use Exception;
 use Model\Cotizacion;
 use Model\ImageCotizacion;
+use Model\TipoServicio;
 use MVC\Router;
 
 class CotizadorController
 {
     public static function index(Router $router)
     {
-        $router->render('pages/cotizador');
+        $tipos = TipoServicio::where('activo', true);
+        $router->render('pages/cotizador', [
+            'tipos' => $tipos
+        ]);
     }
 
     public static function enviar(Router $router)
@@ -84,11 +88,12 @@ class CotizadorController
                     $nombreOriginal = $imagenes['name'][$i];
                     $nuevoNombre = uniqid();
                     $extension = pathinfo($imagenes['name'][$i], PATHINFO_EXTENSION);
-                    $path = $_ENV['UPLOADS'] . '/cotizaciones/' . $nuevoNombre . '.' . $extension;
+                    $endPath = 'cotizaciones/' . $nuevoNombre . '.' . $extension;
+                    $path = $_ENV['UPLOADS'] . $endPath;
                     move_uploaded_file($imagenes['tmp_name'][$i], $path);
                     $imagen = new ImageCotizacion([
                         'cotizacion_id' => $resultado['id'],
-                        'path' => $path,
+                        'path' => $endPath,
                         'nombre_original' => $nombreOriginal,
                     ]);
                     $imagen->crear();
@@ -96,8 +101,10 @@ class CotizadorController
             }
 
             $email = new Email();
+            $tipoServicio = TipoServicio::find($_POST['service']);
             $body = $router->load('emails/cotizacion', [
-                'cotizacion' => $cotizacion
+                'cotizacion' => $cotizacion,
+                'tipoServicio' => $tipoServicio->nombre,
             ]);
             $email->generateEmail('Cotización Vcards', [$_POST['email']], $body);
             $email->send();

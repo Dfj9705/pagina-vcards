@@ -43,10 +43,10 @@
                         <div class="col-12">
                             <div class="form-floating">
                                 <select class="form-select" id="service" name="service" required>
-                                    <option value="" selected>Seleccione un Servicio</option>
-                                    <option value="1">Montaje de decoración</option>
-                                    <option value="2">Evento Corporativo</option>
-                                    <option value="3">Merchandasing y Material Corporativo</option>
+                                    <option value="" selected disabled>Seleccione un Servicio</option>
+                                    <?php foreach ($tipos as $tipo): ?>
+                                        <option value="<?php echo $tipo->id; ?>"><?php echo $tipo->nombre; ?></option>
+                                    <?php endforeach; ?>
                                 </select>
                                 <label for="service">Tipo de Servicio <span class="text-danger">*</span></label>
                             </div>
